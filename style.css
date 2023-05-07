@@ -1,0 +1,35 @@
+/*Generales*/
+
+:root {
+    --let: #fffeff;
+    --verdeo:#28a247 ;
+    --verdec: #96c83f;
+    --footer1: #1d3645;
+    --footer2: #1f506e;
+    --fondo: #353b41;
+  }
+  * {
+    font-family: 'Lato', sans-serif;
+  }
+
+@media screen and (max-width: 250px){
+    
+}
+
+/*NAV*/
+.icono{
+    width: 30%;
+    margin: auto;
+}
+.clase-nav{
+    background-color: var(--fondo);
+    color: var(--let);
+    
+}
+
+.clase-footer{
+  background-color: var(--footer2);
+}
+.clase-boton{
+  background-color: var(--verdec);
+}
