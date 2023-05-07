@@ -23,13 +23,25 @@
 }
 .clase-nav{
     background-color: var(--fondo);
-    color: var(--let);
+    color: var(--let) ;
     
 }
 
 .clase-footer{
-  background-color: var(--footer2);
-}
-.clase-boton{
+  background: linear-gradient(90deg, rgba(29,54,69,1) 0%, rgba(29,54,69,1) 0%, rgba(31,80,110,1) 100%);}
+
+  .clase-boton{
   background-color: var(--verdec);
+
 }
+.btn-custom-success{
+  background-color: var(--verdec) !important;
+  color: var(--let) !important;
+}
+
+.custom-link {
+  color: var(--let) !important;
+}
+
+
+
